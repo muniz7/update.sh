@@ -4,6 +4,7 @@
 echo "atualizando sistemas linux.."
 sleep 1
 echo " "
+echo " "
 echo -n ". . ."
 sudo apt update && sudo apt upgrade && sudo apt dist-upgrade
 
