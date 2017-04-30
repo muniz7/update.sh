@@ -1,0 +1,9 @@
+sudo vi .gitconfig
+ [user]
+  2         email = linuxclimer@gmail.com
+  3         name = muniz
+  4 [mergetool "kdiff3"]
+  5         path = /usr/bin/kdiff3
+  6 [push]
+  7         default = simple
+~                            
