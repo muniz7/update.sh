@@ -1,11 +1,6 @@
 #!/bin/bash
-# data = 23/03/2017
-# autor= MUniz SYSADM
-echo "atualizando sistemas linux.."
+# data = retorno ao curso = 29/04/2017
+# Update= MUNIZ_TI
+echo "atualizando sistemas LINUX..."
 sleep 1
-echo " "
-echo " "
-echo -n ". . ."
-sudo apt update && sudo apt upgrade && sudo apt dist-upgrade
-
-
+sudo apt-get update && sudo apt-get upgrade && sudo apt-get dist-upgrade
